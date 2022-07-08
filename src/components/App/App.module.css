@@ -1,0 +1,11 @@
+
+
+.container {
+    width: 500px;
+    margin: auto;
+
+    background: gainsboro;
+    padding: 50px;
+    border-radius: 5px;
+   
+}
