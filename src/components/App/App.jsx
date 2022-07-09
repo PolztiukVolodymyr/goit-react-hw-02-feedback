@@ -6,9 +6,6 @@ import Section from "components/Section/Section";
 import Statistics from "components/Statistics/Statistics";
 
 
-
-// const options = ["good", "neutral", "bad"];
-
 export class App extends Component {
   state = {
     good: 0,
@@ -42,7 +39,6 @@ export class App extends Component {
 
   // options = Object.keys(this.state);
  
-
   render() {
     const { good, neutral, bad } = this.state;
     return (
@@ -65,13 +61,11 @@ export class App extends Component {
             percentage={this.countPositiveFeedbackPercentage()}
           />)}
         </Section>
+        
   
     </div>)
   };
 
 };
-
-
-
 
  
